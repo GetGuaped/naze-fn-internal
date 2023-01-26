@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="elysian">
+      <UniqueIdentifier>{d42dc05d-5393-49a1-b320-1fc05a6c7db5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="softaim">
+      <UniqueIdentifier>{ca8f656e-351b-4c04-863b-d2eabd472558}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="elysian.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="elysian\game_data.h">
+      <Filter>elysian</Filter>
+    </ClInclude>
+    <ClInclude Include="elysian\includes.h">
+      <Filter>elysian</Filter>
+    </ClInclude>
+    <ClInclude Include="elysian\elysian.h">
+      <Filter>elysian</Filter>
+    </ClInclude>
+    <ClInclude Include="elysian\hook.h">
+      <Filter>elysian</Filter>
+    </ClInclude>
+    <ClInclude Include="softaim\main.h">
+      <Filter>softaim</Filter>
+    </ClInclude>
+    <ClInclude Include="softaim\main_hooking.h">
+      <Filter>softaim</Filter>
+    </ClInclude>
+    <ClInclude Include="elysian\memory.h">
+      <Filter>elysian</Filter>
+    </ClInclude>
+    <ClInclude Include="elysian\settings.h">
+      <Filter>elysian</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="elysian\memory.asm">
+      <Filter>elysian</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
