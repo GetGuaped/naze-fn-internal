@@ -1,5 +1,6 @@
 #pragma once
 
+/// @brief 
 namespace render {
 	bool show_menu = true;
 	bool show_menu_old = false;
