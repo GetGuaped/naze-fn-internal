@@ -1,7 +1,13 @@
 #pragma once
-
 namespace elysian_fn {
 	namespace aimbot {
+		/// @brief 
+		/// @param world 
+		/// @param handler 
+		/// @param aim_location 
+		/// @param interpolate 
+		/// @param constant 
+		/// @param speed 
 		static void set_aim(uobject* world, controller* handler, fvector aim_location, bool interpolate, bool constant, double speed) {
 			auto aim_rotation = math::find_look_at_rotation(variables::camera_location, aim_location);
 			auto world_delta_seconds = game_statics::get_world_delta_seconds(world);
